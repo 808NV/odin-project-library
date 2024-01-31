@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    padding: 2em 2em 4em;
+    background-color: blanchedalmond;
+    box-shadow: 2px 5px 23px 0px rgba(0,0,0,0.75);
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+ a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-family: system-ui, sans-serif;
+}
+
+input {
+    width: 20em;
+}
+
+li img {
+    height: 20px;
+    position: relative;
+    right: 20px;
+    top: 6px;
+}
+
+.title {
+    font-weight: 1000;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+.main-content {
+    display: flex;
+    padding: 3em;
+    background-color: rgba(128, 128, 128, 0.029);
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content:center;
+}
+
+.img-wrapper img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    border: solid 1px black;
+    margin: 5em;
+    margin-left: 10em;
+    padding: 1em;
+}
+
+.submit-Btn {
+    border: none;
+    background-color: blanchedalmond;
+    padding: 1em 0.5em;
+    font-weight: 1000;
+    cursor: pointer;    
+}
+
+.library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+    margin: 1em;
+    border-bottom: solid 1px black;
+}
+
+.delete-btn {
+    width: 150px;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-weight: 700;
+    margin-bottom: 1em;
+    cursor: pointer;
+}

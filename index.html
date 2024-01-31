@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="header">
+        <ul class="items">
+            <li class="title">My library</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My books</a></li>
+            <li><input type="text" placeholder="Search Books"><img src="magnify.png"></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+    
+        <form action="" method="post">
+            <div>
+                <label for="book">Book Name:</label>
+                <input name="book" id="book" type="text">
+            </div>
+            <div>
+                <label for="author">Author:</label>
+                <input name="author" id="author" type="text">
+            </div>
+            <div>
+                <label for="pages">Page Number:</label>
+                <input name="pages" id="pages" type="number">
+            </div>
+
+            <button class="submit-Btn" type="submit">Add Book</button>
+        </form>
+
+        <div class="img-wrapper">
+            <img src="/side img.jpg">
+        </div>
+    </div>
+    <div class="my-library">
+        <div class="library">
+            <div class="book">Book: Thus Spoke Zarathustra</div>
+            <div class="author">By: Friedrich Nietzsche </div>
+            <div class="pages">Page Number: 102</div>
+            <button class="delete-btn">Delete</button>
+        </div>
+    
+        <div class="library">
+            <div class="book">Book: Meditations</div>
+            <div class="author">By: Marcus Aurelius</div>
+            <div class="pages">Page Number: 295</div>
+            <button class="delete-btn">Delete</button>
+        </div>
+    
+        <div class="library">
+            <div class="book">Book: The Symposium</div>
+            <div class="author">By: Plato</div>
+            <div class="pages">Page Number: 25</div>
+            <button class="delete-btn">Delete</button>
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
+</body>
+</html>
